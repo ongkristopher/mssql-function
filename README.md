@@ -6,10 +6,13 @@ this is the collection of the following useful stuff:
    - MSSQL implementation of MySQL functions
    - Waiting for more
 
-### How to's
+## How to's
 how to use some of this sql's
 
-   - ms_concat_ws
+### ms_concat_ws
+ Concatenate several expressions together, and add a separator between them.
+ 
+ ### Example
    ```sql
    select dbo.ms_concat_ws ('one, two, three, foo, bar, foobar','-') as [concat];
    ```
