@@ -1,4 +1,4 @@
-# mssql-function
+# sql-collections
 some useful mssql function
 
 this is the collection of the following useful stuff:
